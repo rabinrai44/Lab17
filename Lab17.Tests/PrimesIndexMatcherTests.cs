@@ -37,6 +37,9 @@ namespace Lab17.Library.Tests
         [TestCase(3, 5)]
         [TestCase(4, 7)]
         [TestCase(5, 11)]
+        [TestCase(25, 97)]
+        [TestCase(50, 229)]
+        [TestCase(100, 541)]
         public void Index_Matcher_WhenIndex_ReturnsPrime(int input,int prime)
         {
             // Assemble

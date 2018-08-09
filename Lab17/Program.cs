@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab17.Library;
 
 namespace Lab17
 {
@@ -10,6 +11,17 @@ namespace Lab17
     {
         static void Main(string[] args)
         {
+
+
+
+            var primeGenerator = new PrimesGenerator();
+            primeGenerator.FillList();
+
+            foreach (var prime in primeGenerator)
+            {
+                Console.WriteLine(prime);
+            }
+            Console.ReadKey();
         }
     }
 }
