@@ -31,5 +31,17 @@ namespace Lab17.Library.Tests
             // Assert
             Assert.AreEqual(3, output);
         }
+
+        [TestCase(1, 2)]
+        [TestCase(2, 3)]
+        public void Index_Matcher_WhenIndex_ReturnsPrime(int input, int prime)
+        {
+            // Assemble
+
+            // Act
+            int output = PrimeIndexMatcher.GetValue(input);
+            // Assert
+            Assert.AreEqual(prime, output);
+        }
     }
 }
