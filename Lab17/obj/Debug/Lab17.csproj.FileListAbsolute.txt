@@ -1,7 +1,6 @@
 C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\bin\Debug\Lab17.exe.config
 C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\bin\Debug\Lab17.exe
 C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\bin\Debug\Lab17.pdb
-C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\obj\Debug\Lab17.csprojAssemblyReference.cache
 C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\obj\Debug\Lab17.csproj.CoreCompileInputs.cache
 C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\obj\Debug\Lab17.exe
 C:\Users\Mozzey\GrandCircus\Labs\Lab17\Lab17\obj\Debug\Lab17.pdb
