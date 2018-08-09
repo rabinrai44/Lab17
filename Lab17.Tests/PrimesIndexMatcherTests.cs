@@ -32,6 +32,8 @@ namespace Lab17.Library.Tests
         //    Assert.AreEqual(3, output);
         //}
 
+        // After getting past the first 5 test cases a prime number generator
+        // was created to test against
         [TestCase(1, 2)]
         [TestCase(2, 3)]
         [TestCase(3, 5)]

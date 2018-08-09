@@ -16,11 +16,24 @@ namespace Lab17
 
             var primeGenerator = new PrimesGenerator();
             primeGenerator.FillList();
+            Console.WriteLine("Let's locate some prime numbers!");
+            Console.WriteLine();
+            Console.WriteLine("This application will find you any prime, in order, from first prime number on.");
+            Console.Write("Which prime number are you looking for? ");
+            int index = int.Parse(Console.ReadLine());
 
-            foreach (var prime in primeGenerator)
+            for (int i = 1; i < primeGenerator.Count; i++)
             {
-                Console.WriteLine(prime);
+                if (index == i -1)
+                {
+                    Console.WriteLine(primeGenerator[index - 1]);
+                }
             }
+
+
+
+
+
             Console.ReadKey();
         }
     }
